@@ -1,7 +1,11 @@
 import { StyleSheet } from 'react-native';
-import { ShadowStyle } from 'react-native-zero-components';
+import { Shadow } from 'react-native-zero-components';
 
-const shadow = new ShadowStyle();
+const shadow = new Shadow({
+  x: 0,
+  y: 2,
+  blur: 6,
+});
 const styles = {
   root: {
     flex: 1,
@@ -15,7 +19,7 @@ const styles = {
     marginVertical: 48,
     borderRadius: 4,
     width: '100%',
-    ...shadow.value,
+    ...shadow.style,
   },
   header: {
     fontSize: 24,

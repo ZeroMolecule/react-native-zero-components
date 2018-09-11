@@ -1,8 +1,12 @@
 // @flow
 import { StyleSheet } from 'react-native';
-import ShadowStyle from '../../styling/ShadowStyle';
+import Shadow from '../../styling/Shadow';
 
-const buttonShadow = new ShadowStyle(0, 2, 6);
+const buttonShadow = new Shadow({
+  x: 0,
+  y: 2,
+  blur: 6,
+});
 
 export default StyleSheet.create({
   button: {
@@ -14,7 +18,7 @@ export default StyleSheet.create({
     borderRadius: 4,
     backgroundColor: '#42c1ff',
     overflow: 'hidden',
-    ...buttonShadow.value,
+    ...buttonShadow.style,
   },
   title: {
     fontSize: 16,

@@ -8,7 +8,7 @@ module.exports = {
   get ImageButton() {
     return require('./components/ImageButton').default;
   },
-  get ShadowStyle() {
-    return require('./styling/ShadowStyle').default;
+  get Shadow() {
+    return require('./styling/Shadow').default;
   },
 };

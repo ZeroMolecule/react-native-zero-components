@@ -1,4 +1,8 @@
-Simple button component. No 1000 properties, no `containerStyle`, `rootViewStyle` etc. Only two styles that matter are `style` (styling for the actual button) and `titleStyle` (styling for the button title). This component uses [`Touchable`](https://zeromolecule.github.io/react-native-zero-components/touchable) within
+---
+id: button
+title: Button
+---
+Simple button component. No 1000 properties, no `containerStyle`, `rootViewStyle` etc. Only two styles that matter are `style` (styling for the actual button) and `titleStyle` (styling for the button title). This component uses [`Touchable`](https://zeromolecule.github.io/zero-components/touchable) within
 
 
 
@@ -45,7 +49,7 @@ const ButtonShowcase = () => (
 
 ---
 ## Props
-* [**Touchable props**](https://zeromolecule.github.io/react-native-zero-components/touchable)
+* [**Touchable props**](https://zeromolecule.github.io/zero-components/touchable)
 * [`onPress`](#onPress)
 * [`title`](#title)
 * [`titleStyle`](#titleStyle)
@@ -55,7 +59,7 @@ const ButtonShowcase = () => (
 ## Reference
 
 ## `onPress`
-The same functionality as the one in [Touchable](https://zeromolecule.github.io/react-native-zero-components/touchable) component, but here it's not an optional property.
+The same functionality as the one in [Touchable](https://zeromolecule.github.io/zero-components/touchable) component, but here it's not an optional property.
 
 |         Type        | Required |
 |:-------------------:|:--------:|

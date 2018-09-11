@@ -1,4 +1,8 @@
-Simplistic approach to displaying image within the touchable. This component is just a simple combination of the Zero Component's [`Touchable`](https://zeromolecule.github.io/react-native-zero-components/touchable) and React Native's [`Image`](https://facebook.github.io/react-native/docs/image) within
+---
+id: imageButton
+title: Image Button
+---
+Simplistic approach to displaying image within the touchable. This component is just a simple combination of the Zero Component's [`Touchable`](https://zeromolecule.github.io/zero-components/touchable) and React Native's [`Image`](https://facebook.github.io/react-native/docs/image) within
 
 
 
@@ -34,7 +38,7 @@ const ImageButtonShowcase = () => (
 
 ---
 ## Props
-* [**Touchable props**](https://zeromolecule.github.io/react-native-zero-components/touchable)
+* [**Touchable props**](https://zeromolecule.github.io/zero-components/touchable)
 * [`onPress`](#onPress)
 * [`source`](#source)
 * [`imageStyle`](#imageStyle)
@@ -43,7 +47,7 @@ const ImageButtonShowcase = () => (
 ## Reference
 
 ## `onPress`
-The same functionality as the one in [Touchable](https://zeromolecule.github.io/react-native-zero-components/touchable) component, but here it's not an optional property.
+The same functionality as the one in [Touchable](https://zeromolecule.github.io/zero-components/touchable) component, but here it's not an optional property.
 
 |         Type        | Required |
 |:-------------------:|:--------:|

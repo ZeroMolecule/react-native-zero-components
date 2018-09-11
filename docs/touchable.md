@@ -1,3 +1,7 @@
+---
+id: touchable
+title: Touchable
+---
 After tons of iterations, copy-pastes, projects etc. We've decided to end the **Touchable hell**™ once and for all! As you already know, there is (or at least there was) no simple way to use **one touchable** throughout the app. React native provides 3-4 different touchable components and each of them has their own API. But not this one!
 
 

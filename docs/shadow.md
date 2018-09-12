@@ -1,6 +1,6 @@
 ---
-id: shadowStyle
-title: ShadowStyle
+id: shadow
+title: Shadow
 ---
 Simpler approach to creating platform specific shadow code. For instance, Android only uses the `elevation` prop, while iOS uses some other.
 

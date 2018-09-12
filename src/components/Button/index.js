@@ -14,6 +14,7 @@ type Props = {
   children?: null,
   left?: Children,
   right?: Children,
+  raised: boolean,
 }
 
 class Button extends PureComponent<Props> {
@@ -23,6 +24,7 @@ class Button extends PureComponent<Props> {
     children: null,
     left: null,
     right: null,
+    raised: false,
   };
 
   render() {
@@ -34,13 +36,15 @@ class Button extends PureComponent<Props> {
       children,
       left,
       right,
+      raised,
       ...props
     } = this.props;
+    const shadowStyle = raised ? styles.buttonShadow : null;
     return (
       <Touchable
         {...props}
         onPress={onPress}
-        style={StyleSheet.flatten([styles.button, style])}
+        style={StyleSheet.flatten([styles.button, shadowStyle, style])}
       >
         {left}
         <Text {...props} style={StyleSheet.flatten([styles.title, titleStyle])}>

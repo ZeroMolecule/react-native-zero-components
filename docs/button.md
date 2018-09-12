@@ -55,6 +55,7 @@ const ButtonShowcase = () => (
 * [`titleStyle`](#titleStyle)
 * [`left`](#left)
 * [`right`](#right)
+* [`raised`](#raised)
 
 ## Reference
 
@@ -92,3 +93,10 @@ Component that will be displayed right of the title within the button. Here you 
 |         Type        | Required | Default                                                                             |
 |:-------------------:|:--------:|:-------------------------------------------------------------------------------------:|
 | component |    No    | `null` |
+
+## `raised`
+Determines if the button will have default shadow or not. If `true`, shadow will be displayed. Otherwise shadow will not be displayed unless you put it manually in `style` prop
+
+|         Type        | Required | Default                                                                             |
+|:-------------------:|:--------:|:-------------------------------------------------------------------------------------:|
+| boolean |    No    | `false` |

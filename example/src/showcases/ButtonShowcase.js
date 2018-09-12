@@ -7,6 +7,7 @@ import icons from '../../assets/icons';
 const ButtonShowcase = () => (
   <View style={styles.root}>
     <Button
+      raised
       title="I'm a simple button"
       onPress={() => console.log('Simple button clicked')}
     />

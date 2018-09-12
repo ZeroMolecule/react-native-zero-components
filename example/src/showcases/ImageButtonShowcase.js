@@ -7,6 +7,7 @@ import icons from '../../assets/icons';
 const ImageButtonShowcase = () => (
   <View style={styles.root}>
     <ImageButton
+      raised
       source={icons.bigIcon}
       onPress={() => null}
     />

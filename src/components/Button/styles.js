@@ -18,8 +18,8 @@ export default StyleSheet.create({
     borderRadius: 4,
     backgroundColor: '#42c1ff',
     overflow: 'hidden',
-    ...buttonShadow.style,
   },
+  buttonShadow: buttonShadow.style,
   title: {
     fontSize: 16,
     color: '#fff',

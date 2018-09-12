@@ -10,7 +10,8 @@ type Props = {
   source: any,
   imageStyle?: Style,
   style?: Style,
-  resizeMode?: 'cover' | 'contain' | 'stretch' | 'center' | 'repeat'
+  resizeMode?: 'cover' | 'contain' | 'stretch' | 'center' | 'repeat',
+  raised: boolean,
 }
 
 class ImageButton extends PureComponent<Props> {
@@ -18,16 +19,19 @@ class ImageButton extends PureComponent<Props> {
     imageStyle: null,
     style: null,
     resizeMode: 'contain',
+    raised: false,
   };
 
   render() {
     const {
       imageStyle,
       style,
+      raised,
       ...props
     } = this.props;
+    const shadowStyle = raised ? styles.buttonShadow : null;
     return (
-      <Touchable mode="opacity" {...props} style={StyleSheet.flatten([styles.button, style])}>
+      <Touchable mode="opacity" {...props} style={StyleSheet.flatten([styles.button, shadowStyle, style])}>
         <Image
           {...props}
           style={StyleSheet.flatten([styles.image, imageStyle])}

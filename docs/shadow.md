@@ -8,7 +8,7 @@ Simpler approach to creating platform specific shadow code. For instance, Androi
 ## Usage
 
 
-```ecmascript 6
+```javascript
 import { StyleSheet } from 'react-native';
 import { ShadowStyle } from 'react-native-zero-components';
 

@@ -47,20 +47,20 @@ const App = () => {
 
 ## Content
 ### Components
-- [x] [Button](https://zeromolecule.github.io/zero-components/button)
-- [x] [ImageButton](https://zeromolecule.github.io/zero-components/imageButton)
-- [x] [Touchable](https://zeromolecule.github.io/zero-components/touchable)
+- [x] [Button](https://zeromolecule.github.io/react-native-zero-components/button)
+- [x] [ImageButton](https://zeromolecule.github.io/react-native-zero-components/imageButton)
+- [x] [Touchable](https://zeromolecule.github.io/react-native-zero-components/touchable)
 
 ### Other
-- [x] [Shadow](https://zeromolecule.github.io/zero-components/shadow)
+- [x] [Shadow](https://zeromolecule.github.io/react-native-zero-components/shadow)
 
 If you want us to include another component or something else, please let us know!
 
 ## Documentation
-[View the full docs here](https://zeromolecule.github.io/zero-components)
+[View the full docs here](https://zeromolecule.github.io/react-native-zero-components)
 
 ## Demo App
-Zero Components demo app is written using [Expo](https://expo.io). Take a look at the [example/](https://github.com/ZeroMolecule/zero-components/tree/master/example) directory for more information. <br/>**Better showcase app comming soon!**
+Zero Components demo app is written using [Expo](https://expo.io). Take a look at the [example/](https://github.com/ZeroMolecule/react-native-zero-components/tree/master/example) directory for more information. <br/>**Better showcase app comming soon!**
 
 ## License
 Zero Components is open source and released under the [BSD-3-Clause License](https://opensource.org/licenses/BSD-3-Clause)

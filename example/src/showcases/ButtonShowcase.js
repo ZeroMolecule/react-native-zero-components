@@ -9,7 +9,7 @@ const ButtonShowcase = () => (
     <Button
       raised
       title="I'm a simple button"
-      onPress={() => console.log('Simple button clicked')}
+      onPress={() => alert('Bu')}
     />
     <Button
       title="I'm haptic button!"

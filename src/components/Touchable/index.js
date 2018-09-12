@@ -45,7 +45,7 @@ if (TouchableNative !== TouchableNativeFeedback) {
 export default class Touchable extends PureComponent<Props> {
   static defaultProps = {
     style: null,
-    foreground: SelectableBackgroundBorderless(),
+    foreground: Ripple(),
     background: null,
     fallback: null,
     hapticDuration: 0,
@@ -57,13 +57,13 @@ export default class Touchable extends PureComponent<Props> {
   static Ripple = Ripple;
   static canUseNativeForeground = canUseNativeForeground;
 
-  onPress = () => {
+  get onPress() {
     const { onPress, hapticDuration } = this.props;
     if (hapticDuration) {
       Vibration.vibrate(hapticDuration);
     }
     return onPress;
-  };
+  }
 
   pickTouchableComponent() {
     const { mode } = this.props;
